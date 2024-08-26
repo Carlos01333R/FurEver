@@ -1,5 +1,6 @@
 import Home from "./icon/Home";
 import { Image } from "@nextui-org/react";
+import HeroImg from "../../public/img/hero.png";
 export default function Hero() {
   return (
     <>
@@ -49,7 +50,7 @@ export default function Hero() {
           <div className="w-full flex justify-center items-center">
             <Image
               className="w-[350px] h-[350px] object-contain"
-              src="/public/img/Hero.png"
+              src={HeroImg}
               alt="hero"
             />
           </div>
