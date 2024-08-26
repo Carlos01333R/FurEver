@@ -4,7 +4,7 @@ import IconFemale from "../component/icon/IconFemale";
 import IconMale from "../component/icon/IconMale";
 import IconDog from "../component/icon/IconDog";
 import ModalPrueba from "../component/ModalMatch";
-import { useDisclosure, Tooltip } from "@nextui-org/react";
+import { useDisclosure, Tooltip, Image } from "@nextui-org/react";
 import { useState } from "react";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
@@ -51,7 +51,7 @@ export default function Match() {
                 className="w-full md:w-[80vh] m-auto  flex flex-col items-center justify-center rounded-xl p-4  bg-[#fae0cf]"
               >
                 <div>
-                  <img
+                  <Image
                     className="w-[380px] h-[350px] md:w-[380px] md:h-[350px] rounded-xl object-cover hover:scale-110 hover:mb-2 hover:transition-all hover:duration-500"
                     src={fristImage}
                     alt="animal"
@@ -98,6 +98,7 @@ export default function Match() {
 
                   <Tooltip content="Adoctar">
                     <a
+                      target="_blank"
                       className="text-[#e67e22] hover:text-[#e67e22] hover:scale-110 hover:transition-all hover:duration-500"
                       href={animal.url}
                       name="heart"
