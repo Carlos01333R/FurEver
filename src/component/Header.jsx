@@ -84,7 +84,7 @@ export default function Header() {
               <ul className="flex flex-col gap-4 p-4 justify-center items-center">
                 {items.map((item, index) => (
                   <li className="flex gap-2 items-center" key={index}>
-                    <a
+                    <Link
                       style={{
                         textDecorationColor: "#e67e22",
                         textDecorationThickness: "2px",
@@ -95,10 +95,10 @@ export default function Header() {
                           : "hover:underline hover:underline-offset-4 hover:transition-all hover:duration-500"
                       }`}
                       key={index}
-                      href={item.link}
+                      to={item.link}
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

@@ -83,7 +83,7 @@ export default function ModalPrueba({
                         </p>
                       </div>
                     </article>
-                    <article className="flex w-full md:w-[50%] flex-col gap-2 ">
+                    <article className="flex w-[90%] md:w-[50%] flex-col gap-2 m-auto ">
                       <h2 className="font-raleway-black text-2xl mb-1 text-[#e67e22]">
                         Información de {animal.nombre}
                       </h2>
