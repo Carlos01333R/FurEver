@@ -21,12 +21,7 @@ export default {
       backgroundColor: {
         'bg-hero-gradient': 'bg-gradient-to-tr from-violet-200 to-pink-200',
       },
-      fontFamily: {
-        'raleway-black': ['Raleway-Black', 'sans-serif'],
-        'raleway-medium': ['Raleway-Medium', 'sans-serif'],
-        'raleway-regular': ['Raleway-Regular', 'sans-serif'],
-        'raleway-semibold': ['Raleway-SemiBold', 'sans-serif'],
-      },
+     
 
     },
   },
